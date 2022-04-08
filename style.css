@@ -1,0 +1,48 @@
+body {
+  font-family: "Architects Daughter", cursive;
+  background-image: url("https://designshack.net/wp-content/uploads/light-background.jpg");
+}
+.wrapper {
+  width: 470px;
+  margin: auto;
+}
+.wrapper h1,
+.wrapper p {
+  text-align: center;
+}
+.btn-restart {
+  border: none;
+  background-color: rgb(231, 59, 59);
+  padding: 10px 20px;
+  font-size: 1.4em;
+  color: white;
+  width: 100%;
+  -webkit-box-shadow: 5px 8px 15px 1px #590000;
+  box-shadow: 5px 8px 15px 1px #590000;
+}
+.btn-restart:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.filed {
+  border: 1px solid black;
+  font-size: 68px;
+  padding: 25px 53px;
+  user-select: none;
+}
+.filed:hover {
+  border-color: rgb(231, 59, 59);
+  cursor: pointer;
+}
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3));
+  grid-template-rows: repeat(3, 150px);
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+#player {
+  font-size: 2em;
+  font-weight: 600;
+}
